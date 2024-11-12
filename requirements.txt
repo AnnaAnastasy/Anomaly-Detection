@@ -1,0 +1,18 @@
+# Core libraries
+pandas
+numpy
+matplotlib
+seaborn
+
+# NLP and Text Processing (if any text processing was done)
+nltk
+wordcloud
+
+# Anomaly Detection & Machine Learning Libraries
+scikit-learn
+xgboost
+lightgbm
+catboost
+
+# Visualization Enhancements
+matplotlib-inline  # Needed for Jupyter notebook inline plots
