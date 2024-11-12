@@ -8,9 +8,9 @@ Credit card fraud is a significant concern for financial institutions and custom
 ## Dataset
 The dataset used in this project contains credit card transactions made by European cardholders in September 2013. The data represents transactions over a two-day period, where 492 transactions are identified as fraudulent out of a total of 284,807 transactions. This dataset is highly imbalanced, with the positive class (fraudulent transactions) making up only 0.172% of all entries.
 
-- Number of Transactions: 284,807
-- Fraudulent Transactions: 492
-- Class Imbalance: Fraud transactions account for only 0.172% of total transactions
+- **Number of Transactions**: 284,807
+- **Fraudulent Transactions**: 492
+- **Class Imbalance**: Fraud transactions account for only 0.172% of total transactions
 
 The dataset contains only numerical features that have been transformed using Principal Component Analysis (PCA) to protect confidentiality. Unfortunately, due to privacy concerns, no further information about the original transaction features is available.
 
@@ -38,10 +38,17 @@ Each method’s performance is evaluated using metrics suited for anomaly detect
 - Precision
 - Recall
 - AUC-ROC
-- 
+ 
 The best-performing model was identified based on these metrics, and insights into fraudulent transaction patterns were derived.
 
+## Dataset Download Instructions
+To run this project, you’ll need to download the credit card fraud detection dataset:
+
+- Download the dataset from [Kaggle’s Credit Card Fraud Detection page](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
+- Save the downloaded `creditcard.csv` file in the same directory as the Jupyter Notebook (`anomaly-detection-credit-card-fraud.ipynb`).
+
 ## Setup and Installation
+
 - Clone the repository:
 ```bash
   git clone https://github.com/AnnaAnastasy/Anomaly-Detection-Credit-Card-Fraud.git
@@ -61,7 +68,7 @@ The best-performing model was identified based on these metrics, and insights in
 ```bash
   jupyter notebook
 ```
-Open anomaly-detection-credit-card-fraud.ipynb in the notebook interface.
+Open `anomaly-detection-credit-card-fraud.ipynb` in the notebook interface.
 
 ## Usage
 - Ensure the dataset file is located in the specified directory as indicated in the notebook.
